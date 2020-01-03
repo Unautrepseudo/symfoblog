@@ -50,9 +50,6 @@ class BlogController extends AbstractController
                         ->add('image')
                         ->getForm();
 
-        var_dump($article);
-          
-          
           
           return $this->render('blog/create.html.twig', [
               'formArticle' => $form->createView()
