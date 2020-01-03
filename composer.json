@@ -31,7 +31,8 @@
     "require-dev": {
         "symfony/debug-pack": "*",
         "symfony/profiler-pack": "*",
-        "symfony/test-pack": "*"
+        "symfony/test-pack": "*",
+        "symfony/web-server-bundle": "4.4.*"
     },
     "config": {
         "preferred-install": {
